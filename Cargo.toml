@@ -15,7 +15,7 @@ edition = "2018"
 log = "0.4"
 pin-project-lite = "0.1.4"
 tokio = { version = "1", features = ["rt-multi-thread", "io-util"] }
-async-pipe = { git = "https://github.com/harana-oss/async-pipe-rs" }
+async-pipe = { git = "https://github.com/harana-oss/async-pipe-rs", rev = "cef30740d42b6f4cf9f19cc6a9efc3bc8e66d063"}
 http-body = "0.4"
 bytes = "1"
 http = "0.2"
